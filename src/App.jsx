@@ -6,7 +6,7 @@ import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from "./contain
 
 const App = () => {
   return (
-    <div className="App bg-colorBg text-white">
+    <div className="App bg-colorBg text-white scroll-smooth">
       <div className="bg-gradientBar">
         <Navbar />
         <Header />
