@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isHidden, setIsHidden] = useState(true);
 
     return (
-        <div className="Navbar w-full z-30 sticky top-0 px-8 py-7 md:px-8 lg:px-0 md:container md:mx-auto md:py-10">
+        <div className="Navbar bg-colorBg w-full top-0 px-8 py-6 md:px-8 lg:px-0 md:container md:mx-auto md:py-6">
             <div className='flex flex-row justify-between'>
                 <div className='flex flex-row justify-between'>
                     <div>
@@ -37,10 +37,11 @@ const Navbar = () => {
                     </button>
                 </div>
             </div>  
+
             <div className="lg:hidden">
                 <div id="menu" className={`absolute flex-col ${isHidden ? 'hidden' : 'flex'} 
-                text-right self-end py-8 mt-5 space-y-6 font-bold bg-colorFooter 
-                left-30 right-8 drop-shadow-md rounded-md px-8 pl-20 z-30`}>
+                text-right self-end py-8 mt-10 space-y-6 font-bold bg-colorFooter 
+                left-30 right-8 md:right-16 drop-shadow-md rounded-md px-8 pl-20 z-30`}>
                     <a href="/#">Home</a>
                     <a href="/#">What Is GPT-3?</a>
                     <a href="/#">Open AI</a>
