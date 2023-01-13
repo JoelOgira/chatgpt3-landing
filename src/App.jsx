@@ -7,10 +7,12 @@ import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from "./contain
 const App = () => {
   return (
     <div className="App bg-colorBg text-white scroll-smooth">
-      <div className="bg-gradientBar">
+      <div className="bg-gradientBar md:px-8">
         <Navbar />
         <Header />
       </div>
+      <Brand />
+      <Footer />
     </div>
   )
 }
