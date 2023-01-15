@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isHidden, setIsHidden] = useState(true);
 
     return (
-        <div className="Navbar bg-colorBg w-full top-0 px-8 py-6 md:px-8 lg:px-0 md:container md:mx-auto md:py-6">
+        <div className="Navbar bg-colorBg w-full sticky top-0 px-8 py-6 md:px-8 lg:px-0 md:container md:mx-auto md:py-6">
             <div className='flex flex-row justify-between'>
                 <div className='flex flex-row justify-between'>
                     <div>
@@ -22,8 +22,8 @@ const Navbar = () => {
                     </div>                               
                 </div>
                 <div className='font-medium text-[18px] flex flex-row space-x-5'>
-                    <a href="/#" className=' hidden md:block py-[0.5rem] px-[1rem]'>Sign In</a>
-                    <a href="/#"className=' hidden md:block bg-[#FF4820] py-[0.5rem] px-[1rem] rounded-lg '>Sign Up</a>
+                    <a href="/#" className=' hidden ss:block py-[0.5rem] px-[1rem]'>Sign In</a>
+                    <a href="/#"className=' hidden ss:block bg-[#FF4820] py-[0.5rem] px-[1rem] rounded-lg '>Sign Up</a>
                     <button
                         className={`hamburger ${isOpen ? null : 'open'} block lg:hidden focus:outline-none mt-3`}
                         onClick={() => {
@@ -40,15 +40,15 @@ const Navbar = () => {
 
             <div className="lg:hidden">
                 <div id="menu" className={`absolute flex-col ${isHidden ? 'hidden' : 'flex'} 
-                text-right self-end py-8 mt-10 space-y-6 font-bold bg-colorFooter 
-                left-30 right-8 md:right-16 drop-shadow-md rounded-md px-8 pl-20 z-30`}>
+                text-right self-end py-8 mt-6 space-y-6 font-bold bg-colorFooter 
+                left-30 right-8 md:left-auto drop-shadow-md rounded-md px-8 pl-20 z-30`}>
                     <a href="/#">Home</a>
                     <a href="/#">What Is GPT-3?</a>
                     <a href="/#">Open AI</a>
                     <a href="/#">Case Studies</a>
                     <a href="/#">Library</a>
-                    <a href="/#" className='md:hidden'>Sign In</a>
-                    <a href="/#"className='md:hidden text-center bg-[#FF4820] py-[0.5rem] px-[1rem] rounded-lg '>Sign Up</a>
+                    <a href="/#" className='ss:hidden'>Sign In</a>
+                    <a href="/#"className='ss:hidden text-center bg-[#FF4820] py-[0.5rem] px-[1rem] rounded-lg '>Sign Up</a>
                 </div>
             </div>         
         </div>
