@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isHidden, setIsHidden] = useState(true);
 
     return (
-        <div className="Navbar bg-colorBg w-full sticky top-0 px-8 py-6 md:px-8 lg:px-0 md:container md:mx-auto md:py-6">
+        <div className="Navbar px-8 bg-colorBg w-full sticky top-0 py-6 md:container md:mx-auto md:py-6">
             <div className='flex flex-row justify-between'>
                 <div className='flex flex-row justify-between'>
                     <div>
