@@ -1,5 +1,3 @@
-import Feature from "../../components/feature/Feature";
-
 const Features = () => {
 
     const featuresData = [
@@ -25,7 +23,7 @@ const Features = () => {
         <div className="px-8 mb-20">
             <div className="Features mx-auto flex flex-col space-y-8 justify-between md:flex-row md:space-x-28 md:container">
                 <div className="flex flex-col space-y-6 md:w-1/3 md:pt-8">
-                    <h1 className="text-[28px] sm:text-[34px] font-extrabold">
+                    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867] text-[28px] sm:text-[34px] font-extrabold">
                         The Future is Now and You Just Need to Realize It. Step into Future Today & Make it Happen.
                     </h1>
 
@@ -38,7 +36,7 @@ const Features = () => {
                     {(featuresData || []).map((data, index) => (
                         <div className="flex flex-row space-y-6 pb-3 space-x-8" key={data + index}>
                             <div className="w-1/3  flex-1 pt-6 md:pt-6 ">
-                                <div className="mb-1 w-[38px] h-[3px] bg-white">
+                                <div className="mb-1 w-[38px] h-[3px] bg-gradient-to-r from-[#AE67FA] to-[#F49867]">
 
                                 </div> 
                                 <h1 className="text-[16px] ss:text-[18px] font-bold">
