@@ -34,7 +34,7 @@ const Header = () => {
                     
                 </div>
                 <div className='lg:w-1/2'>
-                    <img src={ai} alt="Dooms Day AI" className='w-full h-full'/>
+                    <img src={ai} loading="lazy" alt="Dooms Day AI" className='w-full h-full'/>
                 </div>
         </div>
         </div>
