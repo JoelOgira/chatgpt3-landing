@@ -2,7 +2,7 @@ const CTA = () => {
     return (
         <div className="CTA px-8 mb-20">
             <div className="flex flex-col mx-auto bg-gradient-to-r from-[#AE67FA] to-[#F49867] px-8 py-4 rounded-2xl md:container">
-                <div className="flex flex-col py-6 space-y-6 justify-between ss:flex-row ss:items-center ss:space-x-3 ss:space-y-0">
+                <div className="flex flex-col py-6 space-y-6 justify-between ss:flex-row ss:items-center ss:space-x-1 ss:space-y-0">
                     <div className="flex flex-col space-y-2 font-semibold text-[12px] w-full ss:w-3/4">
                         <p>
                             Request Early Access to Get Started
@@ -13,7 +13,7 @@ const CTA = () => {
                     </div>
                     
                     <div className="flex mx-auto md:mx-0">                        
-                        <button className="bg-black rounded-full py-2 px-6 cursor-pointer sm:mb-2">
+                        <button className="bg-black rounded-full py-3 px-6 cursor-pointer sm:mb-2">
                             Get Started
                         </button>
                     </div>
