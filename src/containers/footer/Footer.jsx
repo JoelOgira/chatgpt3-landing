@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="Footer top-full sticky bg-colorFooter py-10 px-8">
             <div className="flex flex-col mx-auto space-y-6 md:container">
                 <div className="flex flex-col w-full text-center space-y-12">
-                    <h1 className="font-extrabold text-[27px] ss:text-[34px] sm:text-[58px] ">
+                    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867] font-extrabold text-[27px] ss:text-[34px] sm:text-[58px] ">
                         Do you want to step into this amazing possibility that is coming in the future before others?
                     </h1>
                     <button className="border-2 px-3 py-4 mx-auto cursor-pointer">
