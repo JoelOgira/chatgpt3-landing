@@ -6,7 +6,7 @@ const Header = () => {
         <div className="mb-20">
             <div className="Header px-8 flex flex-col lg:items-center mx-auto space-y-6 justify-between lg:flex-row md:container lg:space-x-16">
                 <div className='flex flex-col lg:w-1/2 lg:pt-16'>
-                    <h1 className='text-[36px] md:text-[56px] font-bold'>
+                    <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867] text-[36px] md:text-[60px] font-extrabold'>
                         Let's Build Something amazing with GPT-3 OpenAI
                     </h1>
                     <p className='text-[16px] md:text-[18px] text-colorText mt-6'>
