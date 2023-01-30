@@ -11,7 +11,7 @@ const WhatGPT3 = () => {
 
                 <div className="flex flex-col py-6 space-y-5 justify-between sm:flex-row sm:items-center ">
                     <div className="flex">
-                        <h1 className="text-[28px] font-bold ss:text-[38px] max-w-[510px]">
+                        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867] text-[28px] font-bold ss:text-[38px] max-w-[510px]">
                             The possibilities are beyond your imagination
                         </h1>
                     </div>
