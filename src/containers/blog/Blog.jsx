@@ -21,7 +21,7 @@ const Blog = () => {
             </div>
 
             <div className="flex flex-col-reverse sm:flex-row sm:space-x-6 sm:space-y-0 mx-auto md:container">
-                <div className="flex-[0.75] sm:max-w-none h-full my-8 sm:my-0">
+                <div className="flex-1 h-full sm:max-w-none my-8 sm:my-0">
                     <Article 
                         imgUrl = {blog1}
                         date = 'Jan 01, 2023'
