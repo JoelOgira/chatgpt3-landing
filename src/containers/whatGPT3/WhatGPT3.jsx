@@ -22,7 +22,7 @@ const WhatGPT3 = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-between pt-8 px-4">
+                <div className="flex flex-col justify-between pt-8 px-4 md:grid md:grid-cols-3 md:gap-12">
                     <Feature
                         title="Chatbots"
                         text="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
