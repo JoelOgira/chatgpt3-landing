@@ -1,9 +1,11 @@
 import logo from '../../assets/logo.svg'
+import { AiFillFacebook } from 'react-icons/ai';
+import { AiFillTwitterSquare } from 'react-icons/ai';
+import { FaPinterest } from 'react-icons/Fa';
 
 const Footer = () => {
 
-    const today = new Date();
-    const thisYear = today.getFullYear();
+    const thisYear = new Date().getFullYear();
 
     return (
         <div className="Footer top-full sticky bg-colorFooter py-10 px-8">
@@ -45,6 +47,12 @@ const Footer = () => {
                         <h4 className='font-bold underline pb-2'>
                             Links
                         </h4>
+                        <div className="flex flex-row space-x-2">
+                            <a target='_blank' href="https://www.facebook.com/"><AiFillFacebook/></a>
+                            <a target='_blank' href="https://www.twitter.com/"><AiFillTwitterSquare/></a>
+                            <a target='_blank' href="https://www.pinterest.com/"><FaPinterest/></a>
+                            <a target='_blank' href="https://www.google.com/"><AiFillFacebook/></a>
+                        </div>
                         <p>Crechterwoord K12 182 DK</p>
                         <p>085-132567</p>
                         <p>info@payme.net</p>  
