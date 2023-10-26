@@ -45,7 +45,7 @@ const Footer = () => {
 
                     <div className='flex flex-col space-y-1'>
                         <h4 className='font-bold underline pb-2'>
-                            Links
+                            Social Links
                         </h4>
                         <div className="flex flex-row space-x-2">
                             <a target='_blank' href="https://www.facebook.com/"><AiFillFacebook/></a>
