@@ -8,8 +8,6 @@ import blog5 from '../../assets/blog05.png'
 
 const Blog = () => {
 
-
-
     return (
         <div className="Blog mb-20 px-8 scroll-smooth">
 
