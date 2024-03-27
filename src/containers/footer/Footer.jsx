@@ -1,7 +1,7 @@
 import logo from '../../assets/logo.svg'
 import { AiFillFacebook } from 'react-icons/ai';
 import { AiFillTwitterSquare } from 'react-icons/ai';
-import { FaPinterest } from 'react-icons/Fa';
+import { FaPinterest } from 'react-icons/fa';
 
 const Footer = () => {
 
@@ -18,11 +18,11 @@ const Footer = () => {
                         Request Early Access
                     </button>
                 </div>
-                
+
                 <div className="flex flex-col justify-between items-start py-6 mx-auto space-y-6 sm:flex-row sm:space-x-4 sm:mx-0">
                     <div className='flex flex-col flex-wrap space-y-4 pt-8'>
-                        <img src={logo} alt="" className='w-[118px] h-[30px]'/>       
-                        <p>Crechterwoord K12 182 DK <br /> All Rights Reserved</p>                
+                        <img src={logo} alt="" className='w-[118px] h-[30px]' />
+                        <p>Crechterwoord K12 182 DK <br /> All Rights Reserved</p>
                     </div>
 
                     <div className='flex flex-col space-y-1'>
@@ -31,16 +31,16 @@ const Footer = () => {
                         </h4>
                         <p>About Us</p>
                         <p>Social Media</p>
-                        <p>Counters</p> 
+                        <p>Counters</p>
                     </div>
 
                     <div className='flex flex-col space-y-1'>
-                    <h4 className='font-bold underline pb-2'>
-                    Company
+                        <h4 className='font-bold underline pb-2'>
+                            Company
                         </h4>
                         <p>Terms & Conditions </p>
                         <p>Privacy Policy</p>
-                        <p>Contact</p>  
+                        <p>Contact</p>
                     </div>
 
                     <div className='flex flex-col space-y-1'>
@@ -48,16 +48,16 @@ const Footer = () => {
                             Social Links
                         </h4>
                         <div className="flex flex-row space-x-2">
-                            <a target='_blank' href="https://www.facebook.com/"><AiFillFacebook/></a>
-                            <a target='_blank' href="https://www.twitter.com/"><AiFillTwitterSquare/></a>
-                            <a target='_blank' href="https://www.pinterest.com/"><FaPinterest/></a>
-                            <a target='_blank' href="https://www.google.com/"><AiFillFacebook/></a>
+                            <a target='_blank' href="https://www.facebook.com/"><AiFillFacebook /></a>
+                            <a target='_blank' href="https://www.twitter.com/"><AiFillTwitterSquare /></a>
+                            <a target='_blank' href="https://www.pinterest.com/"><FaPinterest /></a>
+                            <a target='_blank' href="https://www.google.com/"><AiFillFacebook /></a>
                         </div>
                         <p>Crechterwoord K12 182 DK</p>
                         <p>085-132567</p>
-                        <p>info@payme.net</p>  
+                        <p>info@payme.net</p>
                     </div>
-                    
+
                 </div>
 
                 <div className="mx-auto py-4 text-center">
